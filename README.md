@@ -38,6 +38,13 @@ Vulnerabilidad de omisión de la característica de seguridad de Microsoft Excha
 
 Microsoft lanzó parches para esas tres vulnerabilidades en abril y mayo de 2021 como parte de sus lanzamientos de "Patch Tuesday". CVE-2021-34473 y CVE-2021-34523 se parchearon [KB5001779](https://support.microsoft.com/en-us/topic/description-of-the-security-update-for-microsoft-exchange-server-2019-2016-and-2013-april-13-2021-kb5001779-8e08f3b3-fc7b-466c-bbb7-5d5aa16ef064) en abril de 2021. CVE-2021-31207 se parcheó [KB5003435](https://support.microsoft.com/en-us/topic/description-of-the-security-update-for-microsoft-exchange-server-2019-2016-and-2013-may-11-2021-kb5003435-028bd051-b2f1-4310-8f35-c41c9ce5a2f1) en mayo.
 
+
+# Dominios 
+
+
+- http://hiveleakdbtnp76ulyhi52eag6c6tyc3xw7ez7iqy6wc34gd2nekazyd.onion/
+-  http://hivecust6vhekztbqgdnkks64ucehqacge3dij3gyrrpdp57zoq3ooqd.onion 
+-  
 # Direcciones IP
 
 - 139.60.161.228
@@ -58,6 +65,11 @@ Microsoft lanzó parches para esas tres vulnerabilidades en abril y mayo de 2021
 | p.bat	| 5e1575c221f8826ce55ac2696cf1cf0b | ecf794599c5a813f31f0468aecd5662c5029b5c4 |
 | Webshell #1| d46104947d8478030e8bcfcc74f2aef7 | d1ef9f484f10d12345c41d6b9fca8ee0efa29b60 |
 | Webshell #2 | 2401f681b4722965f82a3d8199a134ed | 2aee699780f06857bb0fb9c0f73e33d1ac87a385 |
+| winlo | b5045d802394f4560280a7404af69263 | 321d0c4f1bbb44c53cd02186107a18b7a44c840a9a5f0a78bdac06868136b72c |
+| 7zG.exe | 04FB3AE7F05C8BC333125972BA907398 | - |
+| Winlo_dump_64_SCY.exe | BEE9BA70F36FF250B31A6FDF7FA8AFEB | - |
+
+
 
 # Hashes
 
@@ -95,17 +107,18 @@ Microsoft lanzó parches para esas tres vulnerabilidades en abril y mayo de 2021
 # Nombres de archivos 
 
 * *.key.hive
-* .llave.*
+*.key.*
 * HOW_TO_DECRYPT.txt
 * hive.bat
 * shadow.bat
-* vssadmin.exe 
-* wmic.exe SHADOWCOPY 
-* sistema cl
-* wevtutil.exe 
-* wevtutil.exe 
-* bcdedit.exe /set 
-* bcdedit.exe /set 
+* vssadmin.exe delete shadows /all /quiet
+* wmic.exe SHADOWCOPY /nointeractive
+* wmic.exe shadowcopy delete
+* wevtutil.exe cl system
+* wevtutil.exe cl security
+* wevtutil.exe cl application
+* bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures
+* bcdedit.exe /set {default} recoveryenabled no
 
 # Recomendaciones 
 
@@ -129,6 +142,7 @@ Reporte tales incidentes al [CSIRT](csirt@micitt.go.cr) y a la policía local.
 # Fuentes
 - [Hive Ransomware Analysis](https://www.varonis.com/blog/hive-ransomware-analysis)
 - [MITRE HIVE](https://attack.mitre.org/groups/G0092/)
+- [Indicators of Compromise Associated with Hive Ransomware](https://www.ic3.gov/Media/News/2021/210825.pdf)
 
 # Investigaciones
 
