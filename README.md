@@ -39,7 +39,7 @@ Vulnerabilidad de omisión de la característica de seguridad de Microsoft Excha
 Microsoft lanzó parches para esas tres vulnerabilidades en abril y mayo de 2021 como parte de sus lanzamientos de "Patch Tuesday". CVE-2021-34473 y CVE-2021-34523 se parchearon [KB5001779](https://support.microsoft.com/en-us/topic/description-of-the-security-update-for-microsoft-exchange-server-2019-2016-and-2013-april-13-2021-kb5001779-8e08f3b3-fc7b-466c-bbb7-5d5aa16ef064) en abril de 2021. CVE-2021-31207 se parcheó [KB5003435](https://support.microsoft.com/en-us/topic/description-of-the-security-update-for-microsoft-exchange-server-2019-2016-and-2013-may-11-2021-kb5003435-028bd051-b2f1-4310-8f35-c41c9ce5a2f1) en mayo.
 
 
-# Dominios 
+# OnionLinks
 
 
 - http://hiveleakdbtnp76ulyhi52eag6c6tyc3xw7ez7iqy6wc34gd2nekazyd.onion/
