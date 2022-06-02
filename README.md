@@ -51,6 +51,66 @@ Microsoft lanzó parches para esas tres vulnerabilidades en abril y mayo de 2021
 - 139.60.161.56
 - 91.208.52.149
 - 185.70.184.8
+- 9.60.161.228 
+- 139.60.161.56 
+- 91.208.52.149 
+- 185.70.184.8 
+- 139.60.161.24 
+- 139.60.161.236 
+- 139.60.161.216 
+- 139.60.161.213 
+- 139.60.161.75 
+- 139.60.161.52 
+- 139.60.161.85 
+- 139.60.161.43 
+- 139.60.161.209 
+- 139.60.161.215 
+- 139.60.161.47 
+- 139.60.161.45 
+- 139.60.161.208 
+- 139.60.161.84 
+- 139.60.161.99 
+- 185.70.184.41 
+- 84.32.188.189 
+- 84.32.188.104 
+- 84.32.188.93 
+- 84.32.188.197 
+-  84.32.188.190 
+-  84.32.188.60
+-  84.32.188.202
+-  84.32.188.250 
+-  84.32.188.40 
+-  84.32.188.1
+-  84.32.188.237
+-  84.32.188.65 
+-  84.32.188.29 
+-  175.178.62.140 
+-  175.178.62.100 
+-  1.15.80.102 
+-  47.242.86.193 
+-  47.242.86.193 
+-  47.242.86.26 
+-  176.123.8.228 
+-  46.166.161.123 
+-  46.166.161.93 
+-  192.53.123.202 
+-  159.223.143.85
+-  172.99.69.6 
+-  198.211.125.198 
+-  103.146.179.89 
+-  1.15.80.102 
+-  175.178.62.140 
+-  84.32.188.238 
+-  5.199.173.96 
+-  93.115.29.50 
+-  104.253.201.106 
+-  139.60.161.228 
+-  139.60.161.56 
+-  185.70.184.8 
+-  91.208.52.149
+
+
+
 
 
 # Procesos Maliciosos
@@ -119,6 +179,22 @@ Microsoft lanzó parches para esas tres vulnerabilidades en abril y mayo de 2021
 * wevtutil.exe cl application
 * bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures
 * bcdedit.exe /set {default} recoveryenabled no
+
+
+# Dominios
+
+- hXXp://hiveleakdbtnp76ulyhi52eag6c6tyc3xw7ez7iqy6wc34gd2nekazyd[.]onion
+- hXXp://hivecust6vhekztbqgdnkks64ucehqacge3dij3gyrrpdp57zoq3ooqd[.]onion
+- hXXp://ciscosecuritu[.]com/components/html[.]gif
+- hXXp://198[.]211[.]125[.]198:24001/
+- nzwindowshades[.]co[.]nz
+- rmqn[.]stripreflow[.]io
+- sawley-inf[.]derbyshire[.]sch[.]uk
+- controller@nzwindowshades[.]co[.]nz
+- hXXp://159[.]223.[.]143[.]85
+- hXXp://159[.]223[.]143[.]85/fdkjghdfjkgvutereryecfc/kdfjhgskdjgheterererwfkcbswcfe/dsfkjdgsttrrererwbdk776653ncfkbvge[.]php
+- hXXp://www[.]epoolsoft[.]com/PCHunter_StandardV1.55=658897218D38F45E324FC79A562BC8CB2716FCBD73AF103E0E4A6DA0EABDC16784F00B1FB150637D23467C825D80B92A
+- hXXp://clscovpn[.]com/ny[.]html
 
 # Recomendaciones 
 
